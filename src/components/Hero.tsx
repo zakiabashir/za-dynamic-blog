@@ -51,9 +51,11 @@ export default function Hero() {
           <div className="mt-6 bg-transparent border rounded-lg dark:border-gray-700 lg:w-2/3 focus-within:border-primary focus-within:ring focus-within:ring-primary dark:focus-within:border-primary focus-within:ring-opacity-20"></div>
         </div>
         <div className="w-full mt-8 lg:mt-0 lg:w-1/2">
-          <img
+          <Image
             src="/images/h.png"
             alt="Library of Tailwind Components"
+            width={500}
+            height={500}
             className="w-full h-full max-w-md mx-auto"
           />
         </div>
@@ -128,7 +130,7 @@ export default function Hero() {
       {/* Testimonial 1 */}
       <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
         <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
-          <p className="text-gray-600 dark:text-gray-400">"This service transformed our operations. Outstanding support and performance!"</p>
+          <p className="text-gray-600 dark:text-gray-400">&quot;This service transformed our operations. Outstanding support and performance!&quot;</p>
           <h3 className="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-200">Emily Clark</h3>
           <p className="text-gray-500 dark:text-gray-300">COO, Company X</p>
         </div>
@@ -136,7 +138,7 @@ export default function Hero() {
       {/* Testimonial 2 */}
       <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
         <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
-          <p className="text-gray-600 dark:text-gray-400">"Professional and reliable. I highly recommend their expertise."</p>
+          <p className="text-gray-600 dark:text-gray-400">&quot;Professional and reliable. I highly recommend their expertise.&quot;</p>
           <h3 className="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-200">David Lee</h3>
           <p className="text-gray-500 dark:text-gray-300">Head of Product, Company Y</p>
         </div>
@@ -144,7 +146,7 @@ export default function Hero() {
       {/* Testimonial 3 */}
       <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
         <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
-          <p className="text-gray-600 dark:text-gray-400">"Amazing team with exceptional service. They exceeded all our expectations!"</p>
+          <p className="text-gray-600 dark:text-gray-400">&quot;Amazing team with exceptional service. They exceeded all our expectations!&quot;</p>
           <h3 className="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-200">Sarah Wong</h3>
           <p className="text-gray-500 dark:text-gray-300">Marketing Director, Company Z</p>
         </div>
@@ -152,7 +154,7 @@ export default function Hero() {
       {/* Testimonial 4 */}
       <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
         <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
-          <p className="text-gray-600 dark:text-gray-400">"From start to finish, their team provided top-notch support and results."</p>
+          <p className="text-gray-600 dark:text-gray-400">&quot;From start to finish, their team provided top-notch support and results.&quot;</p>
           <h3 className="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-200">Olivia Martinez</h3>
           <p className="text-gray-500 dark:text-gray-300">CEO, Company A</p>
         </div>
@@ -160,7 +162,7 @@ export default function Hero() {
       {/* Testimonial 5 */}
       <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
         <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
-          <p className="text-gray-600 dark:text-gray-400">"Their approach is client-focused and results-driven. Highly recommended."</p>
+          <p className="text-gray-600 dark:text-gray-400">&quot;Their approach is client-focused and results-driven. Highly recommended.&quot;</p>
           <h3 className="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-200">Jake Thompson</h3>
           <p className="text-gray-500 dark:text-gray-300">CTO, Company B</p>
         </div>
@@ -168,7 +170,7 @@ export default function Hero() {
       {/* Testimonial 6 */}
       <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
         <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
-          <p className="text-gray-600 dark:text-gray-400">"Excellent service that led to an increase in our efficiency and growth."</p>
+          <p className="text-gray-600 dark:text-gray-400">&quot;Excellent service that led to an increase in our efficiency and growth.&quot;</p>
           <h3 className="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-200">Natalie Rivera</h3>
           <p className="text-gray-500 dark:text-gray-300">CFO, Company C</p>
         </div>
