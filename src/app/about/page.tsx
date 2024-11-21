@@ -57,7 +57,8 @@ Explore my journey, see the impact of my
       {/* Stage 1: The Spark of Curiosity */}
       <div className="flex flex-col md:flex-row items-center">
         <div className="md:w-1/3">
-          <img src="/images/m5.png" alt="Zakia as a beginner" className="w-full rounded-lg shadow-lg" />
+          <Image src="/images/m5.png"  width={300}
+            height={400} alt="Zakia as a beginner" className="w-full rounded-lg shadow-lg" />
         </div>
         <div className="md:w-2/3 md:pl-8 mt-8 md:mt-0">
           <h3 className="text-2xl font-bold text-gray-800 dark:text-white">The Spark of Curiosity</h3>
@@ -70,7 +71,8 @@ Explore my journey, see the impact of my
       {/* Stage 2: Diving Deeper */}
       <div className="flex flex-col md:flex-row-reverse items-center">
         <div className="md:w-1/3">
-          <img src="/images/food.jpg" alt="Zakia learning new skills" className="w-full rounded-lg shadow-lg" />
+          <Image src="/images/food.jpg"  width={300}
+            height={400} alt="Zakia learning new skills" className="w-full rounded-lg shadow-lg" />
         </div>
         <div className="md:w-2/3 md:pr-8 mt-8 md:mt-0">
           <h3 className="text-2xl font-bold text-gray-800 dark:text-white">Diving Deeper</h3>
@@ -83,7 +85,8 @@ Explore my journey, see the impact of my
       {/* Stage 3: Taking on Challenges */}
       <div className="flex flex-col md:flex-row items-center">
         <div className="md:w-1/3">
-          <img src="/images/p.png" alt="Zakia working on a big project" className="w-full rounded-lg shadow-lg" />
+          <Image src="/images/p.png"  width={300}
+            height={400} alt="Zakia working on a big project" className="w-full rounded-lg shadow-lg" />
         </div>
         <div className="md:w-2/3 md:pl-8 mt-8 md:mt-0">
           <h3 className="text-2xl font-bold text-gray-800 dark:text-white">Taking on Challenges</h3>
@@ -96,7 +99,8 @@ Explore my journey, see the impact of my
       {/* Stage 4: Giving Back */}
       <div className="flex flex-col md:flex-row-reverse items-center">
         <div className="md:w-1/3">
-          <img src="/images/p1.png" alt="Zakia mentoring others" className="w-full rounded-lg shadow-lg" />
+          <Image src="/images/p1.png"  width={300}
+            height={400} alt="Zakia mentoring others" className="w-full rounded-lg shadow-lg" />
         </div>
         <div className="md:w-2/3 md:pr-8 mt-8 md:mt-0">
           <h3 className="text-2xl font-bold text-gray-800 dark:text-white">Giving Back</h3>

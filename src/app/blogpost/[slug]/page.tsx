@@ -7,7 +7,6 @@ import rehypeStringify from "rehype-stringify";
 import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
 import { unified } from "unified";
-import {reporter} from 'vfile-reporter'
 import rehypePrettyCode from "rehype-pretty-code";
 import { transformerCopyButton } from "@rehype-pretty/transformers";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
