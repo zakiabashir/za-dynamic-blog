@@ -12,11 +12,12 @@ import { transformerCopyButton } from "@rehype-pretty/transformers";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeSlug from "rehype-slug";
 import React from "react";
-import { Params } from "next/dist/server/request/params";
 import OnThisPage from "@/components/onthispage";
 
 // Read blog content dynamically
-export default async function Page({ params }: { params: Params }) {
+export default async function Page({ params }: { params:{
+  [x: string]: string | string[] | undefined;
+}}) {
   const filepath = `content/${params.slug}.md`;
 
   // Check if the file exists

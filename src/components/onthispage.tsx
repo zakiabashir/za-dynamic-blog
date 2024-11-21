@@ -24,13 +24,13 @@ const OnThisPage: React.FC<OnThisPageProps> = ({ htmlContent }) => {
   }, [htmlContent]);
 
   return (
-    <div className="on-this-page absolute top-24 md:right-48 lg:right-1/4 hidden lg:block">
+    <div className="on-this-page bg-gradient-to-br from-red-200 via-gray-200 to-teal-100 absolute top-24 md:right-48 lg:right-0/4 hidden lg:block p-4">
       <h2 className="text-md font-bold my-2">On This Page</h2>
-      <ul className="text-sm space-y-1 dark:text-green-500 text-green-900">
+      <ul className="text-sm space-y-1 dark:text-green-800 text-green-500">
         {headings.map((heading, index) => (
           <li
             key={index}
-            className="transition duration-300 ease-in-out hover:bg-gray-200 hover:text-red-900 rounded-md p-1"
+            className="transition duration-300 ease-in-out hover:bg-gray-200 dark:text-white hover:text-red-900 rounded-md p-1"
           >
             <a href={`#${heading.id}`}>{heading.text}</a>
           </li>
