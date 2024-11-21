@@ -2,7 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import React, { ReactNode } from "react";
 import Navbar from "../components/Navbar";
-import { ThemeProvider } from "../components/theme-provider"
+import { ThemeProvider } from "../components/theme-provider";
 import Footer from "../components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -14,7 +14,7 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" className="scroll-p-20 scroll-smooth">
+    <html lang="en">
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
@@ -24,8 +24,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         >
           <Navbar />
           {children}
+          <Footer />
         </ThemeProvider>
-        <Footer />
       </body>
     </html>
   );

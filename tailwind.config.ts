@@ -60,3 +60,10 @@ export default {
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+module.exports = {
+  content: [
+    './src/**/*.{js,ts,jsx,tsx}',
+    './content/**/*.{md,mdx}',
+  ],
+  plugins: [require('@tailwindcss/typography')],
+};
