@@ -1,12 +1,4 @@
-// import Link from "next/link";
 
-// export default function Login() {
-//     return (
-//         <div>Click here to <Link href="/dashboard">Login</Link></div>
-//     );
-// }
-
-/// pages/login.js
 "use client";
 
 import Link from 'next/link'; // Correct import for navigation links

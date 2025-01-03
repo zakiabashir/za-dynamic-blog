@@ -193,7 +193,7 @@ export default function Hero() {
           <div className="mt-4">
             <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">Mastering TypeScript</h3>
             <p className="mt-2 text-gray-600 dark:text-gray-400">Dive into TypeScript basics and learn how it enhances JavaScript with type safety.</p>
-            <Button className="m-2" variant="outline"><Link href="/blog-post-6">Read More</Link></Button>
+            <Button className="m-2" variant="outline"><Link href="/blog">Read More</Link></Button>
           </div>
         </div>
       </div>
@@ -204,7 +204,7 @@ export default function Hero() {
           <div className="mt-4">
             <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">Top Digital Marketing Trends</h3>
             <p className="mt-2 text-gray-600 dark:text-gray-400">Explore the latest trends in digital marketing to stay ahead in 2024.</p>
-            <Button className="m-2" variant="outline"><Link href="/blog-post-6">Read More</Link></Button>
+            <Button className="m-2" variant="outline"><Link href="/blog">Read More</Link></Button>
           </div>
         </div>
       </div>
@@ -215,7 +215,7 @@ export default function Hero() {
           <div className="mt-4">
             <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">Remote Work Success Tips</h3>
             <p className="mt-2 text-gray-600 dark:text-gray-400">Learn strategies for maintaining productivity and balance while working remotely.</p>
-            <Button className="m-2" variant="outline"><Link href="/blog-post-6">Read More</Link></Button>
+            <Button className="m-2" variant="outline"><Link href="/blog">Read More</Link></Button>
           </div>
         </div>
       </div>
@@ -226,7 +226,7 @@ export default function Hero() {
           <div className="mt-4">
             <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">Cybersecurity Essentials</h3>
             <p className="mt-2 text-gray-600 dark:text-gray-400">Protect your data with these fundamental cybersecurity practices.</p>
-            <Button className="m-2" variant="outline"><Link href="/blog-post-6">Read More</Link></Button>
+            <Button className="m-2" variant="outline"><Link href="/blog">Read More</Link></Button>
           </div>
         </div>
       </div>
@@ -237,7 +237,7 @@ export default function Hero() {
           <div className="mt-4">
             <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">Web Development Best Practices</h3>
             <p className="mt-2 text-gray-600 dark:text-gray-400">Stay updated with essential practices to improve your web development projects.</p>
-            <Button className="m-2" variant="outline"><Link href="/blog-post-6">Read More</Link></Button>
+            <Button className="m-2" variant="outline"><Link href="/blog">Read More</Link></Button>
           </div>
         </div>
       </div>
@@ -248,7 +248,7 @@ export default function Hero() {
           <div className="mt-4">
             <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">SEO Optimization Techniques</h3>
             <p className="mt-2 text-gray-600 dark:text-gray-400">Boost your site&apos;s visibility with these essential SEO strategies.</p>
-            <Button className="m-2" variant="outline"><Link href="/blog-post-6">Read More</Link></Button>
+            <Button className="m-2" variant="outline"><Link href="/blog">Read More</Link></Button>
           </div>
         </div>
       </div>
