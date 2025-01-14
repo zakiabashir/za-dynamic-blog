@@ -24,7 +24,7 @@ const OnThisPage: React.FC<OnThisPageProps> = ({ htmlContent }) => {
   }, [htmlContent]);
 
   return (
-    <div className="on-this-page bg-gray-200 dark:bg-gradient-to-br from-red-100 via-gray-500 to-teal-100 absolute top-36 md:right-11 lg:right-0/4 hidden lg:block p-4">
+    <div className="on-this-page bg-gray-200 dark:bg-gradient-to-br from-red-100 via-gray-500 to-teal-100 absolute top-36 md:right-28 lg:right-0/4 hidden lg:block p-4">
       <h2 className="text-md font-bold my-2">On This Page</h2>
       <ul className="text-sm space-y-1 dark:text-green-800 text-green-500">
         {headings.map((heading, index) => (

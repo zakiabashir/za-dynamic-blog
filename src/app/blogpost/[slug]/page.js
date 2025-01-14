@@ -12,6 +12,7 @@ import { transformerCopyButton } from '@rehype-pretty/transformers'
 import OnThisPage from "@/components/onthispage"
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeSlug from 'rehype-slug'
+import Comment from "@/components/comment"
 
 export default async function Page({ params }) {
 
@@ -65,6 +66,8 @@ export default async function Page({ params }) {
             </div>
             <div dangerouslySetInnerHTML={{ __html: htmlContent }} className="prose dark:prose-invert"></div>
             <OnThisPage htmlContent={htmlContent}/>
+            <Comment postId={params.slug} />
+
         </div>
     )
 }
