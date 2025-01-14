@@ -4,9 +4,9 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/footer";
 import { ThemeProvider } from "next-themes"; // Ensure you're using a compatible ThemeProvider
 // Define the RootLayoutProps type
-interface RootLayoutProps {
-  children: ReactNode; // children is of type ReactNode
-}
+type RootLayoutProps = {
+  children: ReactNode;
+};
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
