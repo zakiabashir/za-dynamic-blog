@@ -36,15 +36,15 @@ export default function Hero() {
     <main>
       <section className="container my-20 px-4 py-10 mx-auto lg:h-128 lg:space-x-8 lg:flex lg:items-center">
         <div className="w-full text-center lg:text-left lg:w-1/2 lg:-mt-8">
-          <h1 className="text-3xl leading-snug text-gray-800 dark:text-gray-200 md:text-4xl">
+          <h1 className="text-3xl leading-snug text-gray-800 dark:text-blue-800 md:text-4xl">
             Discover a{" "}
             <span className="font-semibold">comprehensive library</span> of
             community-built <br className="hidden lg:block" /> components for{" "}
-            <span className="font-semibold underline decoration-primary">
+            <span className="font-semibold dark:text-white underline decoration-primary">
               <span ref={el} />
             </span>
           </h1>
-          <p className="mt-4 text-lg text-gray-500 dark:text-gray-300">
+          <p className="mt-4 text-lg text-gray-500 dark:text-gray-100">
             Access open-source Tailwind UI components and templates <br className="hidden lg:block" /> to
             accelerate your next web app or landing page!
           </p>
