@@ -35,7 +35,7 @@ export default function SignUp() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center dark:bg-gray-800 dark:text-white bg-gray-100">
+    <div className="min-h-screen flex items-center justify-center dark:bg-gray-700 dark:text-white bg-gray-100">
       <div className="bg-white p-8 dark:bg-gray-900 dark:text-white rounded-2xl shadow-md w-full max-w-md">
         <h2 className="text-2xl font-bold mb-6 text-center">Sign Up</h2>
         {error && <p className="text-red-500 text-center">{error}</p>}
@@ -53,7 +53,7 @@ export default function SignUp() {
               name="username"
               value={formData.username}
               onChange={handleChange}
-              className="w-full p-2 border border-gray-300 rounded mt-1"
+              className="w-full p-2 border   border-gray-300 rounded mt-1"
               required
             />
           </div>

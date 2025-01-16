@@ -73,13 +73,13 @@ const Blog = async () => {
   const blogs = await getBlogs();
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 ">
       <h1 className="text-4xl font-bold mb-8 text-center">Blog</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {blogs.map((blog, index) => (
           <div
             key={index}
-            className="rounded-lg shadow-md overflow-hidden dark:border-2"
+            className="p-6 bg-gray-100 rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105"
           >
             <Image
               src={blog.image}

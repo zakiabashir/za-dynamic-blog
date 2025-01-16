@@ -46,6 +46,9 @@ const Navbar = () => {
           <Link href="/contact" className="hover:scale-105 hover:font-semibold transition-transform duration-300">
             Contact
           </Link>
+          <Link href="/productpage" className="hover:scale-105 hover:font-semibold transition-transform duration-300">
+            Products
+          </Link>
           <div className="flex items-center">
             <Button className="mx-1" variant="outline">
               <Link href="/login">Login</Link>
@@ -81,6 +84,7 @@ const Navbar = () => {
                     <Link href="/about">About</Link>
                     <Link href="/blog">Blog</Link>
                     <Link href="/contact">Contact</Link>
+                    <Link href="/productpage">Products</Link>
                     <div>
                       <Button className="mx-1 text-xs" variant="outline">
                         <Link href="/login">Login</Link>
