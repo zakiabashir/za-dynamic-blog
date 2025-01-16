@@ -10,7 +10,7 @@ export default function About() {
       <div className="w-full md:w-1/3 flex justify-center items-center mb-8 md:mb-0">
         <div className="relative w-300 h-400 rounded-2xl overflow-hidden">
           <Image
-            src="/images/zpic.PNG"
+            src="/images/zpic.jpeg"
             alt="Profile"
             // layout="fill"
             objectFit="cover"
